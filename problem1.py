@@ -26,6 +26,7 @@ def line_search_method(x0, W, a0, c, tau):
     k = 0 #starting index
     x1, x2, x3 = x =x0 #initial guess
     print("initial value at x0 : {}".format(f(x0, W)))
+    print("initial point is at {}".format(x0))
 
     while True:
         # compute gradient at x[k]
